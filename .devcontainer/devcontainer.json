@@ -10,13 +10,13 @@
 		"--rm",
 		"--user", "1000:1000",
 		"-e", "DISPLAY=${env:DISPLAY}",
-		"-v", "/etc/group:/etc/group:ro",
-		"-v", "/etc/passwd:/etc/passwd:ro",
-    	"-v", "/etc/shadow:/etc/shadow:ro",
-    	"-v", "/etc/sudoers.d:/etc/sudoers.d:ro",
+		// "-v", "/etc/group:/etc/group:ro",
+		// "-v", "/etc/passwd:/etc/passwd:ro",
+    	// "-v", "/etc/shadow:/etc/shadow:ro",
+    	// "-v", "/etc/sudoers.d:/etc/sudoers.d:ro",
 		"-v", "/tmp/.X11-unix:/tmp/.X11-unix:rw",
-		"-v", "${localWorkspaceFolder}:/home/grans/", 
-    	"--workdir", "/home/grans/"
+		// "-v", "${localWorkspaceFolder}:/home/chris/", 
+    	// "--workdir", "/home/chris/"
 	],
 	"extensions": [
 		"ms-python.python"
